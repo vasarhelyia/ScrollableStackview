@@ -81,10 +81,6 @@ class ViewController: UIViewController {
       label.text = "I'm label \(i)."
       label.textAlignment = .center
       stackView.addArrangedSubview(label)
-
-      // Overriding the intrinsic width
-      label.translatesAutoresizingMaskIntoConstraints = false
-      label.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
     }
   }
 }
