@@ -62,7 +62,7 @@ class ViewController: UIViewController {
       stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
 
       // Satisfying size constraints
-      stackView.widthAnchor.constraint(equalTo: stackView.widthAnchor)
+      stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor)
     ])
 
     // Add arranged subviews:
